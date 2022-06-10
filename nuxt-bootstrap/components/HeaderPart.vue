@@ -7,7 +7,13 @@
             <h4 class="text-white">About</h4>
             <p class="text-muted">Youtube videa</p>
           </div>
-
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Menu</h4>
+            <ul class="list-unstyled">
+              <li><nuxt-link to="/">Youtube videa</nuxt-link></li>
+              <li><nuxt-link to="/form-test-page">Test formulářů</nuxt-link></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
