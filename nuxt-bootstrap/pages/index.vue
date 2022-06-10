@@ -1,9 +1,11 @@
 <template>
-  <button type="button" class="btn btn-primary">Primary</button>
+  <main-part/>
 </template>
-
 <script>
+import MainPart from "~/components/MainPart/MainPart.vue"
 export default {
-  name: 'IndexPage',
+  components: {
+    MainPart
+  }
 }
 </script>
